@@ -43,43 +43,53 @@ const GridBackground = () => {
 export default function Hero() {
   const words = [
     "Software Development Engineer",
-    "Data Analyst",
-    "Full-Stack Developer",
-    "Cloud Engineer"
+    "Machine Learning Engineer",
+    "AI Engineer",
+    "Distributed Systems Engineer"
   ];
   
 
-  const [code] = useState(`
-  const profile = {
-    name: 'Dhruvkumar Tilva',
-    title: 'Software Development Engineer & Data Analyst',
-    skills: [
-      'Java', 'Python', 'TypeScript',
-      'Spring Boot', 'Node.js (Express)', 'React.js',
-      'SQL', 'MongoDB',
-      'Apache Spark',
-      'Docker', 'Kubernetes',
-      'AWS (EC2, Lambda, S3)',
-      'Pandas', 'NumPy', 'Scikit‑learn',
-      'Power BI'
-    ],
-    hardWorker: true,
-    quickLearner: true,
-    problemSolver: true,
-    yearsOfExperience: 2,
-    hireable: function() {
-      return (
-        this.hardWorker &&
-        this.problemSolver &&
-        this.yearsOfExperience >= 1 &&
-        this.skills.length >= 10
-      );
-    }
-  };
-  
-  
-  
-  `);
+const [code] = useState(`
+const profile = {
+  name: 'Dhruvkumar Tilva',
+  title: 'Software Engineer | ML Engineer | AI Engineer',
+  focus: 'Building scalable AI and distributed cloud systems.',
+
+  skills: [
+    'Java', 'Python', 'TypeScript',
+    'Spring Boot', 'FastAPI', 'Node.js', 'React.js',
+    'Kafka', 'Flink', 'Redis',
+    'TensorFlow', 'PyTorch', 'HuggingFace',
+    'Large Language Models (LLMs)', 'RAG Systems',
+    'PostgreSQL', 'MongoDB',
+    'Docker', 'Kubernetes',
+    'AWS', 'GCP',
+    'OpenTelemetry', 'MLflow'
+  ],
+
+  domains: [
+    'Distributed Systems',
+    'Machine Learning Infrastructure',
+    'Real-Time Data Streaming',
+    'Cloud-Native Architecture',
+    'Responsible AI'
+  ],
+
+  researchExperience: true,
+  productionExperience: true,
+  systemsThinker: true,
+
+  yearsOfExperience: 2,
+
+  hireable: function() {
+    return (
+      this.productionExperience &&
+      this.systemsThinker &&
+      this.skills.length >= 15
+    );
+  }
+};
+`);
 
   useEffect(() => {
     Prism.highlightAll();
@@ -221,41 +231,35 @@ export default function Hero() {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  Software Development Engineer | Data & Analytics Enthusiast | Cloud & Distributed Systems Explorer 
+                  Avaialable for Immediate Hire | Software Development Engineer | Machine Learning & AI Engineer
                 </p>
               </div>
 
               {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 animate__animated animate__fadeInUp animate__delay-2s">
-                {/* View Projects Button */}
-                {/* <a
-                  href="https://github.com/seraprogrammer"
-                  className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 p-0.5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
-                >
-                  <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-teal-400">
-                    <span className="relative flex items-center justify-center gap-2 text-white font-medium">
-                      <span>Learn More</span>
-                      <i className="fas fa-arrow-right transform transition-all duration-300 group-hover:translate-x-1"></i>
-                    </span>
-                  </span>
-                </a> */}
+<div className="flex flex-col sm:flex-row gap-4 sm:gap-6 animate__animated animate__fadeInUp animate__delay-2s">
 
-                {/* Contact Button */}
-                <a
-                  href="/resume.pdf"
-                  download="Dhruvkumar_Tilva_Resume.pdf"
-                  className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
-                >
-                  <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 border border-gray-700/50 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-gray-800 group-hover:to-gray-700">
-                    <span className="relative flex items-center justify-center gap-2 text-gray-300 font-medium group-hover:text-white">
-                      <span>Download Resume</span>
-                      <i className="fas fa-download transform transition-all duration-300 group-hover:rotate-12"></i>
-                    </span>
-                  </span>
-                </a>
-                
+  {/* Projects Button (Primary) */}
+  <a
+    href="https://github.com/dhruv0504"
+    className="relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold text-white transition-all duration-300 hover:scale-105"
+  >
+    <span className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500 to-cyan-400"></span>
+    <span className="absolute inset-[2px] rounded-2xl bg-[#0B1220]"></span>
+    <span className="relative z-10">Projects</span>
+  </a>
 
-              </div>
+  {/* Resume Button (Secondary) */}
+  <a
+    href="/Resume.pdf"
+    download="Dhruvkumar_Tilva_Resume.pdf"
+    className="relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold text-gray-300 transition-all duration-300 hover:scale-105 hover:text-white"
+  >
+    <span className="absolute inset-0 rounded-2xl border border-gray-700"></span>
+    <span className="absolute inset-[2px] rounded-2xl bg-[#0B1220]"></span>
+    <span className="relative z-10">Resume</span>
+  </a>
+
+</div>
             </div>
 
             {/* Right column - Code window */}

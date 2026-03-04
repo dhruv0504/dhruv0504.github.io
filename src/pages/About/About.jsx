@@ -7,7 +7,8 @@ export default function About() {
       <section id="about" className="py-16 md:py-32  text-white bg-[#04081A]">
         <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
           <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl text-white">
-            Developer, Analyst, SysArch
+            Developer, ML/AI Engineer
+
           </h2>
           <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
             <div className="relative mb-6 sm:mb-0">
@@ -22,17 +23,20 @@ export default function About() {
               </div>
             </div>
 
-            <div className="relative space-y-4">
-              <p className="text-white">
-                Hello! I’m Dhruvkumar Tilva, a graduate student in Computer Science at Arizona State University. As a Software Development Engineer and Data Analyst, I build scalable, cloud‑native microservices and distributed systems using Java, Python, and C++.
-              </p>
-              <p className="text-white">
-                I’ve developed RESTful and GraphQL APIs with Spring Boot and Node.js, created responsive front ends with React.js, and managed data backends with MySQL, PostgreSQL, and MongoDB. I also build ETL pipelines and dashboards using SQL, Pandas, and Power BI, and I containerize applications with Docker and orchestrate them on Kubernetes.
-              </p>
-              <p className="text-white">
-                I excel in object‑oriented design, data structures, and system design, working in Agile teams to solve complex problems. With CI/CD pipelines, monitoring, performance tuning, and data visualization experience, I deliver high‑quality code and actionable insights.
-              </p>
-            </div>
+<div className="relative space-y-4">
+  <p className="text-white">
+    Hello! I’m Dhruvkumar Tilva, a Master’s graduate in Computer Science from Arizona State University specializing in Software Engineering, Machine Learning, and AI systems. My academic and professional experience centers on building scalable, production-ready software that bridges intelligent models with robust system architecture.
+  </p>
+  <p className="text-white">
+    I build end-to-end full-stack applications and cloud-native distributed systems using Java, Python, and TypeScript — developing backend microservices, real-time streaming pipelines, and responsive front-end interfaces with modern frameworks. I work extensively with containerization, orchestration, CI/CD automation, and cloud platforms to ensure reliability, observability, security, and performance at scale.
+  </p>
+  <p className="text-white">
+    My work includes NLP, large language models (LLMs), and prompt engineering, where I design context-aware AI systems, retrieval-augmented generation (RAG) workflows, and optimized inference pipelines. I focus on deploying production-grade ML solutions with model monitoring, fairness evaluation, drift detection, and scalable infrastructure that supports high-throughput, low-latency decision systems.
+  </p>
+  <p className="text-white">
+    I’m particularly driven by solving complex engineering challenges at the intersection of AI and distributed systems — designing fault-tolerant architectures, optimizing resource utilization, and ensuring that intelligent systems remain transparent, maintainable, and dependable in real-world environments.
+  </p>
+</div>
 
 
 

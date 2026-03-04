@@ -53,13 +53,38 @@ const ExperienceCard = ({
 
 const ExperienceSection = () => {
   const experiences = [
+  {
+      icon: Code2,
+      title: "SDE - Reasearch Asscociate",
+      company: "Arizona State University",
+      // period: "01/2023 - 11/2023",
+      description:
+      "Architected a cloud-native ML research platform for a NASA-sponsored antenna project, enabling scalable simulations and real-time experimentation."
+    },
     {
       icon: Code2,
       title: "Software Developer",
       company: "EnactOn Technologies Private Limited",
       // period: "01/2023 - 11/2023",
       description:
-      "Developed microservices and APIs; containerized and deployed applications on Kubernetes."
+      "Built and scaled microservice-based backend systems, improving reliability, performance, and deployment velocity across production environments."
+    },
+      {
+      icon: Code2,
+      title: "ML Engineer - Trainee",
+      company: "Indian National Centre for Ocean Information Services (INCOIS)",
+      // period: "01/2023 - 11/2023",
+      description:
+      "Developed a geospatial ML pipeline at INCOIS to model oil spill movement using satellite data, spatial-temporal features, and scalable PostGIS-backed workflows."
+
+    },
+      {
+      icon: Code2,
+      title: "Software Developer - Intern",
+      company: "WebForest LLP",
+      // period: "01/2023 - 11/2023",
+      description:
+      "Contributed to front-end development of an ecommerce platform, building responsive UI components and integrating REST APIs while collaborating with backend teams in a production environment."
     },
     {
       icon: Layers,
@@ -67,7 +92,7 @@ const ExperienceSection = () => {
       company: "Knowledge Solution India (KSI)",
       // period: "Apr 2022 - Oct 2022",
       description:
-      "Built machine learning frameworks and created interactive BI dashboards."
+      "Built machine learning solutions and developed interactive BI dashboards to support data-driven decision-making."
    },
     {
       icon: Network,
@@ -75,7 +100,7 @@ const ExperienceSection = () => {
       company: "BranyBeam Technologies",
       // period: "May 2021 - Aug 2021",
       description:
-      "Modeled supply chain processes and developed reporting tools for stakeholders."
+      "Modeled supply chain workflows and built analytical reporting tools to improve operational visibility and stakeholder decision-making."
     },
   ];
 

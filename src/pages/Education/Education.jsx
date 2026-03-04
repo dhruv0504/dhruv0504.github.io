@@ -19,15 +19,18 @@ const EducationSection = () => {
         mascot: "📘",
         year: "January 2024 – December 2025",
         achievements: ["GPA: 3.9 / 4.0", "Major: Computer Science"],
-        skills: [
-          "Cloud Computing & Microservices",
-          "Data Structures & Algorithms",
-          "Applied Cryptography",
-          "Data Mining & Machine Learning",
-          "System Design & Optimization"
-        ],
+    skills: [
+      "System Design & Optimization",
+      "Cloud Computing & Microservices",
+      "Distributed Systems",
+      "Machine Learning",
+      "Natural Language Processing",
+      "Neural Networks & Deep Learning",
+      "Large Language Models",
+      "Agentic AI Systems"
+    ],
         description:
-          "Advanced coursework and projects in distributed systems, cloud‑native architectures, and data analytics, emphasizing performance, scalability, and real‑world applications."
+          "Specialized in distributed systems, cloud computing, and advanced AI through coursework in machine learning, NLP, deep learning, large language models, and system design, emphasizing scalable, production-grade architectures."
       },
       {
         degree: "Bachelor of Engineering",
@@ -36,14 +39,16 @@ const EducationSection = () => {
         year: "July 2019 – June 2023",
         achievements: ["GPA: 9.5 / 10.0", "Major: Computer Engineering"],
         skills: [
-          "Object‑Oriented Programming",
-          "Operating Systems & Networks",
-          "Database Management Systems",
-          "Digital Logic & Microprocessors",
-          "Software Engineering & Data Structures"
-        ],
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "Database Management Systems",
+      "Operating Systems",
+      "Computer Networks",
+      "Software Engineering",
+      "Digital Logic & Microprocessors"
+    ],
         description:
-          "Comprehensive study of computer engineering fundamentals, completing projects in software development, algorithm design, and hardware‑software integration."
+          "Built a strong foundation in computer science through coursework in data structures, algorithms, operating systems, databases, and computer networks, focusing on software engineering principles and system-level problem solving."
       }
     ];
     
