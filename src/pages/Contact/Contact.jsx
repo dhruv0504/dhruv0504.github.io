@@ -179,7 +179,7 @@ export default function Contact() {
                 </a>
                 <div>
                   <h3 className="font-semibold">Location</h3>
-                  <p className="text-gray-400">Tempe, Arizona, USA - 85288</p>
+                  <p className="text-gray-400">San Francisco, CA - 94107</p>
                 </div>
               </div>
 
